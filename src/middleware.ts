@@ -2,6 +2,12 @@ import { NextResponse } from "next/server"
 
 export function middleware(request: Request) {
   
+  // const regex = new RegExp('/api/*')
+
+  if (request.url.includes('/api/')) {
+    
+  } 
+
   console.log('Middleware!')
 
   console.log(request.method)
