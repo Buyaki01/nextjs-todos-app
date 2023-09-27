@@ -2,9 +2,9 @@ import { NextResponse } from "next/server"
 
 export function middleware(request: Request) {
   
-  // const regex = new RegExp('/api/*')
+  const regex = new RegExp('/api/*')
 
-  if (request.url.includes('/api/')) {
+  if (regex.test(request.url)) {
     
   } 
 
