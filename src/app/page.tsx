@@ -1,9 +1,12 @@
-import Image from 'next/image'
+
+export const revalidate = 0 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello World!
-    </main>
+    <> 
+      <AddTodo />
+      {/* @ts-expect-error Server Component */}
+      <TodoList />
+    </>
   )
 }
