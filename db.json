@@ -29,6 +29,45 @@
       "title": "hey hey",
       "id": 5,
       "completed": false
+    },
+    {
+      "userId": 1,
+      "title": "Wash Clothes",
+      "id": 6,
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "title": "Mop the house",
+      "id": 7,
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "title": "Take a nap",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "title": "Wash Utensils",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "title": "Go to the market",
+      "id": 10,
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "title": "Buy a Laptop",
+      "id": 11,
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "title": "Install new operating system",
+      "id": 12
     }
   ]
 }
