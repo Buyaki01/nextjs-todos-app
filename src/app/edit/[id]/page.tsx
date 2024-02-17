@@ -1,5 +1,5 @@
 import Todo from "@/app/components/Todo"
-import fetchTodo from "@/lib/fetchTodo"
+import fetchTodo from "@/lib/fetchTodo/fetchTodo"
 import { notFound } from "next/navigation"
 
 export const revalidate = 0

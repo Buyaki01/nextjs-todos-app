@@ -1,5 +1,5 @@
 import TodoList from "./components/TodoList"
-import AddTodo from "./components/AddTodo"
+import AddTodo from "./components/addTodo/AddTodo"
 
 export const revalidate = 0
 
